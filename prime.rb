@@ -3,7 +3,7 @@ def prime?(x)
   if x <= 1
 		return false
 	else
-		(2..x/2).none? do |i| 
+		(2..x/2).none? do |i|
 			x % i == 0
 		end
 	end
